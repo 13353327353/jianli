@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人简历</title>
+		<link rel="stylesheet" href="baiduMap/css/markerTool.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/rotate.css" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div id="goTopBtn" style="background: url(img/goTopBottom.png);
+	background-position: 0px 0px;display: none;"></div>
+		<header>
+			<div class="jumbotron">
+	            <div class="userMessageDiv">
+	            	<div><img src="img/1.jpg" class="img-circle userPhoto"></div>
+								<div class="userMessageText">
+									<small class="text-muted">姓名：黄信晓&nbsp;</small>
+									<small class="text-muted">&nbsp;性别：男</small>
+									<div class="userMessageText"><small class="text-muted">毕业学校:浙江万里学院 专业:通信工程 学历:本科</small></div>
+								
+							</div>
+	            	
+	            </div>
+	           
+	            <div class="toBottomDiv"><a type="button" href="#map" class="btn btn-success toBottom"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a></div>
+	        </div>
+        </header>
+        <div class="container">
+        	<div class="row">
+        		<div class="col-xs-12 col-sm-12 col-md-6 technology">
+        			<h3>技术点</h3>
+        			<div class="technologyContent">
+	        			<p>HTML 是用来描述网页的一种语言。</p>
+	        			<p>JavaScript 是世界上最流行的脚本语言。</p>
+	        			<p>CSS 用于控制网页的样式和布局(CSS3 是最新的 CSS 标准)。</p>
+	        			<p>React 是Facebook推出的一款javascript库。生态圈庞大</p>
+	        			<p>Antd是蚂蚁金服推出的一款开源的UI框架</p>
+	        			<p>Vue.js是一个尤雨溪推出的一款渐进式框架</p>
+        			</div>
+        		</div>
+        		<div class="col-xs-12 col-sm-12 col-md-6 degree">
+        			<h3>了解程度</h3>
+        			<div class="degreeContent">
+        				<p>HTML</p>
+	        			<div class="progress">
+						  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+						    <span class="sr-only">90% </span>
+						  </div>
+						</div>
+						<p>javascrip</p>
+	        			<div class="progress">
+						  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+						    <span class="sr-only">90% </span>
+						  </div>
+						</div>
+						<p>css3</p>
+	        			<div class="progress">
+						  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+						    <span class="sr-only">70% </span>
+						  </div>
+						</div>
+						<p>React</p>
+	        			<div class="progress">
+						  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+						    <span class="sr-only">80% </span>
+						  </div>
+						</div>
+						<p>antd</p>
+	        			<div class="progress">
+						  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+						    <span class="sr-only">70% </span>
+						  </div>
+						</div>
+						<p>Vue</p>
+	        			<div class="progress">
+						  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+						    <span class="sr-only">70% </span>
+						  </div>
+						</div>
+					</div>
+        		</div>
+        	</div>
+        	<hr style="border-bottom: 0;">
+        	<h3 style="margin-top: 30px;margin-bottom: 15px;" class="text-muted">学习网站</h3>
+        	<div class="row" >
+                <div class="col-xs-12 col-sm-4 col-md-4 div-transform"  style="margin-bottom: 10px;">
+                    <a href="https://reactjs.org/">
+                        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 ionicDiv" id="ionic" onmouseover="rotateYDIV('ionic')" onmouseout="clearYTimeout()" align="center">
+	        				<img src="img/react.jpg" class="img-thumbnail" style="border: 0;">
+	        				<p class="text-warning" style="margin-top: 20px;">react</p>
+	        			</div>
+        			</a>
+        		</div>
+                <div class="col-xs-12 col-sm-4 col-md-4 div-transform" style="margin-bottom: 10px;">
+                    <a href="https://cn.vuejs.org/v2/guide/">
+                        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 angularJsDiv" id="angularjs" onmouseover="rotateXDIV('angularjs')" onmouseout="clearXTimeout()" align="center">
+	        				<img src="img/vue.png" class="img-thumbnail" style="border: 0; width:40%">
+	        				<p class="text-warning" style="margin-top: 20px;">vue</p>
+        			    </div>
+        			</a>
+        		</div>
+                <div class="col-xs-12 col-sm-4 col-md-4 div-transform">
+                    <a href="https://www.webpackjs.com/concepts/">
+                        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 nodeJSDiv" id="nodeJS" onmouseover="rotateYDIV('nodeJS')" onmouseout="clearYTimeout()" align="center">
+	        				<img src="img/webpack.png" class="img-thumbnail" style="border: 0;  width:85%;">
+	        				<p class="text-warning">webpack</p>
+	        			</div>
+        			</a>
+        		</div>
+        	</div>
+        	<hr style="border-bottom: 0;margin-top: 40px;">
+        	<h3 style="margin-top: 30px;margin-bottom: 15px;" class="text-muted">作品集</h3>
+        	<div class="row" >
+        		<div class="col-xs-12 col-sm-4 col-md-4"><a href="http://www.dengshi01.ssslll.net/home">简单的企业站</a></div>
+        		<div class="col-xs-12 col-sm-4 col-md-4"><a href="https://gitee.com/HuaiPoMeng/react-antd">仿知乎首页gitee地址-react</a></div>
+        		<div class="col-xs-12 col-sm-4 col-md-4"><a href="https://gitee.com/HuaiPoMeng/imitating_the_book/tree/master">仿简书首页gitee地址-react</a></div>
+        	</div>
+        	<hr style="border-bottom: 0;margin-top: 40px;">
+        	<h3 style="margin-top: 30px;margin-bottom: 15px;" class="text-muted">我的位置</h3>
+        	<div class="map" id="map" style="width: 100%;height: 300px;"></div>
+        </div>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/rotate.js"></script>
+	    <script type="text/javascript" src="js/index.js"></script>
+		<!--引用百度地图-->
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+        <script type="text/javascript" src="baiduMap/js/baiduMap/BMapwindowinfo.js" ></script>
+        <script type="text/javascript" src="baiduMap/js/baiduMap/GeoUtils_min.js" ></script>
+        <!--标记-->
+        <script type="text/javascript" src="http://api.map.baidu.com/library/MarkerTool/1.2/src/MarkerTool_min.js"></script>
+	</body>
+</html>
